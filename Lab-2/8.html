@@ -1,0 +1,82 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+<body>
+    <form action="Successful.html">
+        <table border="1" cellspacing="0" width="28%" height="33%">
+            <tr height="60px">
+                <th colspan="3"><h2>PERSON PROFILE</h2></th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text"></td>
+                <td width="30px"></td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td><input type="email"></td>
+                <td width="30px"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="Gender" value="m">Male
+                    <input type="radio" name="Gender" value="f">Female
+                    <input type="radio" name="Gender" value="o">Other
+                </td>
+                <td width="30px"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date"></td>
+                <td width="30px"></td>
+            </tr>
+            <tr>
+                <td>Blood Group</td>
+                <td>
+                    <select name="BloodGrp">
+                        <option selected value>A+</option>
+                        <option>A-</option>
+                        <option>B+</option>
+                        <option>B-</option>
+                        <option>AB+</option>
+                        <option>AB-</option>
+                        <option>O+</option>
+                        <option>O-</option>
+
+                    </select>
+                </td>
+                <td width="30px"></td>
+            </tr>
+            <tr>
+                <td>Degree</td>
+                <td>
+                    <input type="checkbox" name="" value="s">SSC
+                    <input type="checkbox" name="" value="h">HSC
+                    <input type="checkbox" name="" value="b">BSc.
+                    <input type="checkbox" name="" value="m">MSc.
+                </td>
+                <td width="30px"></td>
+            </tr>
+            <tr>
+                <td>Photo</td>
+                <td colspan="2"><input type="file"></td>
+            </tr>
+            <tr height="35px">
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right">
+                    <input type="submit" value= "Submit" name="">
+                    <input type="reset" value= "Reset" name="">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
