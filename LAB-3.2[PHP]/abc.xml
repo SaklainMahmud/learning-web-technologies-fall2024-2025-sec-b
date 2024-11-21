@@ -1,0 +1,21 @@
+<addmission>
+    <students sr="1">
+        <serial_num>03</serial_num>
+        <name_first>Mahmud</name_first>
+        <name_last>Reza</name_last>
+        <addmission_date>18/11/2021</addmission_date>
+    </students>
+    <students sr="2">
+        <serial_num>07</serial_num>
+        <name_first>Hafizul</name_first>
+        <name_last>Islam</name_last>
+        <addmission_date>06/05/2022</addmission_date>
+    </students>
+    <students sr="3">
+        <serial_num>05</serial_num>
+        <name_first>Saklain</name_first>
+        <name_last>Mahmud</name_last>
+        <addmission_date>17/11/2021</addmission_date>
+    </students>
+    
+</addmission>
